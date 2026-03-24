@@ -88,7 +88,7 @@ If you run the server manually via CLI (for example: `npx -y @mindsung/godot-mcp
 ```
 
 Tip: If you enabled **Port override** in the Godot MCP panel, start the server with matching env vars (or export as environment variable):
-`GODOT_HOST=... GODOT_PORT=... npm run start` or `GODOT_HOST=... GODOT_PORT=... npx -y @/godot-mcp`
+`GODOT_HOST=... GODOT_PORT=... npm run start` or `GODOT_HOST=... GODOT_PORT=... npx -y @mindsung/godot-mcp`
 
 ## Development
 
