@@ -19,7 +19,7 @@ Add godot-mcp to your MCP client. See the [Installation Guide](INSTALL.md) for c
 ### 2. Install the Godot addon
 
 ```bash
-npx @satelliteoflove/godot-mcp --install-addon /path/to/your/godot/project
+npx @mindsung/godot-mcp --install-addon /path/to/your/godot/project
 ```
 
 Enable in Godot: **Project Settings > Plugins > Godot MCP**
@@ -61,7 +61,7 @@ WSL2 is supported (auto-detection, host IP discovery, configurable bind modes). 
 
 ## CLI smoke test (paste-ready JSON-RPC)
 
-If you run the server manually via CLI (for example: `npx -y @satelliteoflove/godot-mcp`), you can paste these **stdio JSON-RPC frames** to verify it responds and can reach Godot:
+If you run the server manually via CLI (for example: `npx -y @mindsung/godot-mcp`), you can paste these **stdio JSON-RPC frames** to verify it responds and can reach Godot:
 
 1) Write in CLI
 
@@ -88,7 +88,7 @@ If you run the server manually via CLI (for example: `npx -y @satelliteoflove/go
 ```
 
 Tip: If you enabled **Port override** in the Godot MCP panel, start the server with matching env vars (or export as environment variable):
-`GODOT_HOST=... GODOT_PORT=... npm run start` or `GODOT_HOST=... GODOT_PORT=... npx -y @satelliteoflove/godot-mcp`
+`GODOT_HOST=... GODOT_PORT=... npm run start` or `GODOT_HOST=... GODOT_PORT=... npx -y @/godot-mcp`
 
 ## Development
 
