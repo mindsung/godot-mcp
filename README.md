@@ -1,6 +1,8 @@
-# godot-mcp
+# @mindsung/godot-mcp
 
 MCP server that connects Claude to your Godot editor. Less copy-paste, more creating.
+
+Fork adds OpenAI codex conversion compatibility.
 
 ## Why This Exists
 
