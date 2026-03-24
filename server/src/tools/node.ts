@@ -48,7 +48,8 @@ const NodeSchema = z
       .optional()
       .describe('Name for the new node (create only)'),
     properties: z
-      .record(z.string(), z.unknown())
+      .object({})
+      .catchall(z.unknown())
       .optional()
       .describe('Properties to set (create, update)'),
     new_parent_path: z
